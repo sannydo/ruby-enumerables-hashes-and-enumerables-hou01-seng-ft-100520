@@ -8,7 +8,7 @@
 
 def select_winner(passengers)
   # add the code snippet here!
-passengers.select { |name| name.start_with?('A') }
- puts "Winner #{name} in #{suite}"
+passengers.select { |value| value.start_with?('A') }
+ puts "Winner #{value} in #{key}"
 end
 
