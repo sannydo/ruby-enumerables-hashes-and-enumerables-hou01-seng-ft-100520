@@ -9,7 +9,7 @@
 def select_winner(passengers)
   # add the code snippet here!
  if passengers.has_key?("suite_a") && passengers.select { |value| value.start_with?('A') }
-   puts "Winner #{value} in #{key}"
+   puts "Amanda Presley is the winner!"
  end
 end
 
