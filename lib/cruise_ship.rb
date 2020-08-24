@@ -8,6 +8,8 @@
 
 def select_winner(passengers)
   # add the code snippet here!
+  suite = 0
+  name = 0
   passengers.each do |suite, name|
     if suite == "suite_a" && name == "Amanda Presley"
       puts "You are the winner, #{name}!"
