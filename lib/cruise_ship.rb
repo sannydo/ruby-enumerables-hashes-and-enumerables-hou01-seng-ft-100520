@@ -9,6 +9,6 @@
 def select_winner(passengers)
   # add the code snippet here!
   passengers.each do |key, value|
-    return select_winner == {key: "suite_a", value: "Amanda Presley"}
+    return select_winner = {key: "suite_a", value: "Amanda Presley"}
   end
 end
