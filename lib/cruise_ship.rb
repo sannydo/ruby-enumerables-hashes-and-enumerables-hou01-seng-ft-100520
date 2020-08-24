@@ -8,7 +8,7 @@
 
 def select_winner(passengers)
   # add the code snippet here!
-passengers.select { |value| value.start_with?('A') }
+ if passengers.select { |value| value.start_with?('A') }
  puts "Winner #{value} in #{key}"
 end
 
