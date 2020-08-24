@@ -9,6 +9,6 @@
 def select_winner(passengers)
   # add the code snippet here!
   passengers.each do |key, value|
-    puts "Hello #{key}! You are #{value}!"
+    puts "Hello #{value}! You are #{value}!"
   end
 end
